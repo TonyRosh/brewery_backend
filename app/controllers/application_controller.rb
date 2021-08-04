@@ -12,12 +12,13 @@ class ApplicationController < ActionController::API
             token = auth_header.split(' ')[1]
             secret = 'f#$fdg^&4565tgfy*(&^4trhk;{):yrrtef2367%^&(Gfhgjk&^*ulkl/P{{)(iRTyWe2eReg>LP'
 
-            decoded_token = JWT.decod token, secret
+            decoded_token = JWT.decode token, secret
 
             payload = decoded_token.first
             user_id = payload['user_id']
 
-            @user = USER.find user_id
+            @user = User.find user_id
+
         end
     end
 
