@@ -3,7 +3,7 @@ Food.destroy_all
 
 Food.create(dish: 'The Trio', description: 'Snacks')
 Food.create(dish: 'Pretzel Bites and Beer Cheese Queso', description: 'Snacks')
-Food.create(dish: 'Cheese Board', description: 'Snacks')
+Food.create(dish: 'Cheese Board', description: 'Snackss')
 Food.create(dish: 'Flatbread and Hummus', description: 'Snacks')
 Food.create(dish: 'White Cheddar Mac n Cheese', description: 'Snacks')
 Food.create(dish: 'Nachos', description: 'Snacks')
